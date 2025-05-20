@@ -7,7 +7,7 @@ def multiply(a, b):
 if __name__ == "__main__":
     # Simple CLI interaction
     print("Simple Calculator")
-    x = int(input("Enter first number: "))
-    y = int(input("Enter second number: "))
+    x = 8
+    y = 5
     print(f"{x} + {y} = {add(x, y)}")
     print(f"{x} * {y} = {multiply(x, y)}")
